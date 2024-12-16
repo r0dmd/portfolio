@@ -71,6 +71,7 @@ article {
   padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
 }
 
 article:hover {
@@ -123,7 +124,6 @@ article p {
 }
 
 button {
-  margin: 0 auto;
   background-color: #333;
   color: #fff;
   border: none;
@@ -131,7 +131,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
-  margin-top: 1rem;
+  display: block; /* Convierte el botón en un elemento de bloque para que respete margin: auto */
+  margin: 1rem auto 0;
 }
 
 button a {
