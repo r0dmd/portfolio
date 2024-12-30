@@ -147,6 +147,10 @@ button a {
   color: #fff;
   text-decoration: none;
 }
+button a:hover {
+  color: #fff;
+  font-style: normal;
+}
 
 button:hover {
   background-color: #555;
