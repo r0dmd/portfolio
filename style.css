@@ -73,10 +73,18 @@ article {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   width: 100%;
 }
-
 article:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+article a {
+  text-decoration: none;
+  color: blue;
+}
+article a:hover {
+  color: rgb(0, 110, 255);
+  font-style: italic;
 }
 
 h3 {
