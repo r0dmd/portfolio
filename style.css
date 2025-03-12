@@ -18,7 +18,7 @@ body {
 
 header {
   text-align: left;
-  background-color: #333;
+  background: linear-gradient(to right, #333, lightblue);
   color: #fff;
   padding: 1rem 15%;
   font-family: 'Lato', sans-serif;
