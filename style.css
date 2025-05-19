@@ -27,6 +27,7 @@ header {
 header a {
   text-decoration: none;
   color: lightblue;
+  margin-right: 2rem;
 }
 header a:hover {
   color: yellow;
