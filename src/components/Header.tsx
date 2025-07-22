@@ -23,7 +23,7 @@ const Header = () => {
 						<FaArrowRight className="h-3" />
 					</a>
 					<a
-						href="/public/cv/CV Rodrigo Masid.pdf"
+						href={`${import.meta.env.BASE_URL}cv/cv-rod-masid.pdf`}
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="resume"

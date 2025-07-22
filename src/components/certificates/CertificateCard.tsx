@@ -8,7 +8,7 @@ export function CertificateCard({ certificate }: CertificateCardProps) {
 	return (
 		<div className="rounded-2xl p-5 bg-gradient-to-br from-slate-800/60 to-slate-900/40 backdrop-blur-md border border-white/10 shadow-lg flex flex-col hover:scale-[1.03] hover:shadow-2xl transition-transform duration-300">
 			<img
-				src={certificate.imageUrl.replace("/public", "")}
+				src={`${import.meta.env.BASE_URL}${certificate.imageUrl}`}
 				alt={certificate.title}
 				className="w-full h-48 object-cover rounded-xl opacity-95"
 			/>
