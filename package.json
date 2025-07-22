@@ -2,6 +2,7 @@
 	"name": "portfolio-blog",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://r0dmd.github.io/portfolio",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
