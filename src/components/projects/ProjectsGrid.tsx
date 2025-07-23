@@ -18,13 +18,13 @@ export function ProjectsGrid() {
 			<h2 className="text-3xl font-bold text-slate-50 mb-6 flex flex-wrap items-center gap-3 sm:gap-4">
 				<span>Projects</span>
 				<span className="flex flex-wrap items-center gap-2 text-5xl text-slate-300">
+					<SiMysql />
 					<LiaJava />
 					<SiSpringboot />
 					<SiAngular />
 					<SiTypescript />
 					<SiReact />
 					<SiNodedotjs />
-					<SiMysql />
 				</span>
 			</h2>
 
