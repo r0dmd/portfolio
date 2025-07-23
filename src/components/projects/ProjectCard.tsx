@@ -31,16 +31,24 @@ export function ProjectCard({ project }: ProjectCardProps) {
 			</div>
 
 			<nav className="flex flex-wrap justify-center gap-3 sm:gap-4 mt-5">
-				<a
-					href={`${import.meta.env.BASE_URL}${project.demoUrl}`}
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label="resume"
-					className="inline-flex items-center gap-x-0.5 text-md font-semibold text-blue-300 hover:bg-amber-300/90 hover:text-slate-900 hover:rounded-full px-2"
-				>
-					\view_demo
-					<FaArrowRight className="h-3" />
-				</a>
+				{project.demoUrl.length !== 0 ? (
+					<a
+						href={`${import.meta.env.BASE_URL}${project.demoUrl}`}
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="resume"
+						className="inline-flex items-center gap-x-0.5 text-md font-semibold text-blue-300 hover:bg-amber-300/90 hover:text-slate-900 hover:rounded-full px-2"
+					>
+						\view_demo
+						<FaArrowRight className="h-3" />
+					</a>
+				) : (
+					<p className="inline-flex items-center gap-x-0.5 text-md font-semibold text-slate-500">
+						\view_demo
+						<FaArrowRight className="h-3" />
+					</p>
+				)}
+
 				<a
 					href={project.projectUrl}
 					target="_blank"
