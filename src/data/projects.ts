@@ -7,6 +7,7 @@ export const projects: Project[] = [
 		description:
 			"Final bootcamp project. A hackathon management platform for both event organizers and developers craving for a challenge.",
 		imageUrl: "images/projects/hack-a-ton.png",
+		demoUrl: "In progress...",
 		projectUrl: "https://github.com/r0dmd/HAB_PFB_HACKATHONS",
 		tech: [
 			"Figma",
@@ -17,7 +18,6 @@ export const projects: Project[] = [
 			"React",
 			"Tailwind CSS",
 			"npm",
-			"Prettier",
 		],
 	},
 	{
@@ -26,6 +26,7 @@ export const projects: Project[] = [
 		description:
 			"Climate alerts in real time based on custom user preferences. Weather data courtesy of the Open-Meteo API.",
 		imageUrl: "images/projects/meteoalert.png",
+		demoUrl: "In progress...",
 		projectUrl: "https://github.com/r0dmd/MeteoAlert",
 		tech: [
 			"MySQL",
@@ -43,6 +44,7 @@ export const projects: Project[] = [
 		description:
 			"A digital inventory tracker app, with photo OCR recognition for users' shopping receipts.",
 		imageUrl: "images/projects/inventive.png",
+		demoUrl: "In progress...",
 		projectUrl: "https://github.com/r0dmd/inventive-client-react",
 		tech: [
 			"Tesseract.js",
@@ -60,6 +62,7 @@ export const projects: Project[] = [
 		title: "TuneTray",
 		description: "Simple and quick music playlist manager.",
 		imageUrl: "images/projects/tunetray.png",
+		demoUrl: "videos/tunetray-demo.webm",
 		projectUrl: "https://github.com/r0dmd/tunetray",
 		tech: [
 			"H2",
