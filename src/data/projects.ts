@@ -7,7 +7,7 @@ export const projects: Project[] = [
 		description:
 			"Final bootcamp project. A hackathon management platform for both event organizers and developers craving for a challenge.",
 		imageUrl: "images/projects/hack-a-ton.png",
-		demoUrl: "",
+		demoUrl: "videos/hackaton-demo.webm",
 		projectUrl: "https://github.com/r0dmd/HAB_PFB_HACKATHONS",
 		tech: [
 			"Figma",
