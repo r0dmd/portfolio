@@ -42,7 +42,7 @@ export const projects: Project[] = [
 		id: 3,
 		title: "Inventive",
 		description:
-			"A digital inventory tracker app, with photo OCR recognition for users' shopping receipts.",
+			"A digital inventory tracker app, with photo OCR recognition for users' shopping invoices.",
 		imageUrl: "images/projects/inventive.png",
 		demoUrl: "",
 		projectUrl: "https://github.com/r0dmd/inventive-client-react",

@@ -15,6 +15,12 @@ export const certificates: Certificate[] = [
 	},
 	{
 		id: 3,
+		title: "Spring Boot desde cero a experto",
+		imageUrl: "images/certificates/spring-boot.jpg",
+		skills: ["Spring Framework 6", "Spring Boot 3", "JPA"],
+	},
+	{
+		id: 4,
 		title: "TypeScript & Tooling JS",
 		imageUrl: "images/certificates/typescript.jpg",
 		skills: [
@@ -29,7 +35,7 @@ export const certificates: Certificate[] = [
 		],
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Soft skills",
 		imageUrl: "images/certificates/soft-skills.png",
 		skills: [
@@ -41,49 +47,49 @@ export const certificates: Certificate[] = [
 		],
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Server side rendering",
 		imageUrl: "images/certificates/server-side-rendering.jpg",
 		skills: ["Next.js", "Gatsby", "GraphQL"],
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "JS frameworks",
 		imageUrl: "images/certificates/frameworks-js.jpg",
 		skills: ["Angular", "Vue.js"],
 	},
 	{
-		id: 7,
+		id: 8,
 		title: "CSS frameworks",
 		imageUrl: "images/certificates/frameworks-css.jpg",
 		skills: ["Tailwind CSS", "Bootstrap"],
 	},
 	{
-		id: 8,
+		id: 9,
 		title: "PHP backend",
 		imageUrl: "images/certificates/php.jpg",
 		skills: ["PHP", "Laravel"],
 	},
 	{
-		id: 9,
+		id: 10,
 		title: "GitHub",
 		imageUrl: "images/certificates/github.jpg",
 		skills: ["Git", "GitHub", "GitHub Actions"],
 	},
 	{
-		id: 10,
+		id: 11,
 		title: "Business Intelligence",
 		imageUrl: "images/certificates/business-intel.jpg",
 		skills: ["Power BI", "Snowflake"],
 	},
 	{
-		id: 11,
+		id: 12,
 		title: "Artificial Intelligence",
 		imageUrl: "images/certificates/ia-empresa.jpg",
 		skills: ["Introduction to AI", "Corporate AI"],
 	},
 	{
-		id: 12,
+		id: 13,
 		title: "Building a product from scratch",
 		imageUrl: "images/certificates/producto-desde-0.jpg",
 		skills: [
