@@ -11,7 +11,15 @@ export const certificates: Certificate[] = [
 		id: 2,
 		title: "Máster completo en Java",
 		imageUrl: "images/certificates/java.jpg",
-		skills: ["Java", "Jakarta", "Swing", "Spring Boot", "JUnit5", "Mockito"],
+		skills: [
+			"Java",
+			"Jakarta",
+			"Swing",
+			"Spring Boot",
+			"JUnit5",
+			"Mockito",
+			"Maven",
+		],
 	},
 	{
 		id: 3,

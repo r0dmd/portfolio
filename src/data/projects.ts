@@ -67,11 +67,12 @@ export const projects: Project[] = [
 		tech: [
 			"H2",
 			"Java",
+			"Maven",
 			"Spring Boot",
-			"Angular",
-			"TypeScript",
-			"Tailwind CSS",
 			"pnpm",
+			"TypeScript",
+			"Angular",
+			"Tailwind CSS",
 		],
 	},
 ];
