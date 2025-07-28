@@ -106,4 +106,10 @@ export const certificates: Certificate[] = [
 			"Solution implementation",
 		],
 	},
+	{
+		id: 14,
+		title: "Project management",
+		imageUrl: "images/certificates/scrum.png",
+		skills: ["Scrum", "Work methodology"],
+	},
 ];
