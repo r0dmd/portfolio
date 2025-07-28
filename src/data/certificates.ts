@@ -112,4 +112,17 @@ export const certificates: Certificate[] = [
 		imageUrl: "images/certificates/scrum.png",
 		skills: ["Scrum", "Work methodology"],
 	},
+	{
+		id: 15,
+		title: "Generative AI",
+		imageUrl: "images/certificates/gen-ai.png",
+		skills: [
+			"GenAI foundations",
+			"Applicability in organizations",
+			"Deep-Dive Business",
+			"Deep-Dive Tech",
+			"FMOps",
+			"GenAI legistlation & ethics",
+		],
+	},
 ];
