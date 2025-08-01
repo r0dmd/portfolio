@@ -125,4 +125,23 @@ export const certificates: Certificate[] = [
 			"GenAI legistlation & ethics",
 		],
 	},
+	{
+		id: 16,
+		title: "CI/CD",
+		imageUrl: "images/certificates/ci-cd.png",
+		skills: [
+			"Selenium",
+			"Gherkin & Cucumber",
+			"Cypress",
+			"Terraform",
+			"Ansible",
+			"IaC",
+		],
+	},
+	{
+		id: 17,
+		title: "Advanced data analysis",
+		imageUrl: "images/certificates/analisis-datos-avanzado.png",
+		skills: ["R", "Matplotlib & Seaborn", "Apache Kafka"],
+	},
 ];
