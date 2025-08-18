@@ -144,4 +144,10 @@ export const certificates: Certificate[] = [
 		imageUrl: "images/certificates/analisis-datos-avanzado.png",
 		skills: ["R", "Matplotlib & Seaborn", "Apache Kafka"],
 	},
+	{
+		id: 18,
+		title: "Data analysis, processing and visualization in R",
+		imageUrl: "images/certificates/analisis-datos-r.png",
+		skills: ["R", "Geographical and sociological data", "Web scraping"],
+	},
 ];
