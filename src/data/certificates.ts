@@ -146,7 +146,7 @@ export const certificates: Certificate[] = [
 	},
 	{
 		id: 18,
-		title: "Data analysis, processing and visualization in R",
+		title: "Data analysis, processing and rendering in R",
 		imageUrl: "images/certificates/analisis-datos-r.png",
 		skills: ["R", "Geographical and sociological data", "Web scraping"],
 	},
