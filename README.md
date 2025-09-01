@@ -1,3 +1,3 @@
 # Portfolio
 
-## Realizado en React
+## Realizado en React + TypeScript
