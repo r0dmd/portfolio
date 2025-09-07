@@ -150,4 +150,10 @@ export const certificates: Certificate[] = [
 		imageUrl: "images/certificates/analisis-datos-r.png",
 		skills: ["R", "Geographical and sociological data", "Web scraping"],
 	},
+	{
+		id: 19,
+		title: "Microsoft Azure: From Zero to Hero - The Complete Guide",
+		imageUrl: "images/certificates/azure.jpg",
+		skills: ["Azure", "Cloud"],
+	},
 ];
