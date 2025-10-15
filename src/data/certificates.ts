@@ -156,4 +156,10 @@ export const certificates: Certificate[] = [
 		imageUrl: "images/certificates/azure.jpg",
 		skills: ["Azure", "Cloud"],
 	},
+	{
+		id: 20,
+		title: "Programación en Python",
+		imageUrl: "images/certificates/python.jpg",
+		skills: ["Python"],
+	},
 ];
