@@ -8,6 +8,7 @@ import {
 	SiReact,
 	SiNodedotjs,
 	SiMysql,
+	SiDotnet,
 } from "react-icons/si";
 import { LiaJava } from "react-icons/lia";
 
@@ -18,6 +19,7 @@ export function ProjectsGrid() {
 			<h2 className="text-3xl font-bold text-slate-50 mb-6 flex flex-wrap items-center gap-3 sm:gap-4">
 				<span>Projects</span>
 				<span className="flex flex-wrap items-center gap-2 text-5xl text-slate-300">
+					<SiDotnet />
 					<SiMysql />
 					<LiaJava />
 					<SiSpringboot />

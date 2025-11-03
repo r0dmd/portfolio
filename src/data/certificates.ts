@@ -162,4 +162,10 @@ export const certificates: Certificate[] = [
 		imageUrl: "images/certificates/python.jpg",
 		skills: ["Python"],
 	},
+	{
+		id: 21,
+		title: ".NET Multiplatform Development",
+		imageUrl: "images/certificates/dotnet_01.jpg",
+		skills: ["C#", ".NET", ".NET MAUI", "Visual Studio", "NuGet", "Microsoft SQL Server", "Swagger"],
+	},
 ];

@@ -44,7 +44,7 @@ export const projects: Project[] = [
 		description:
 			"A digital inventory tracker app, with photo OCR recognition for users' shopping invoices.",
 		imageUrl: "images/projects/inventive.png",
-		demoUrl: "",
+		demoUrl: "https://inventive-ochre.vercel.app/",
 		projectUrl: "https://github.com/r0dmd/inventive-client-react",
 		tech: [
 			"Tesseract.js",
@@ -73,6 +73,22 @@ export const projects: Project[] = [
 			"TypeScript",
 			"Angular",
 			"Tailwind CSS",
+		],
+	},
+	{
+		id: 4,
+		title: "MiAlmacén",
+		description: "API for managing a product storehouse",
+		imageUrl: "images/projects/mialmacen.png",
+		demoUrl: "videos/mialmacen-swagger.mp4",
+		projectUrl: "https://github.com/r0dmd/app-almacen--csharp-.net",
+		tech: [
+			"C#",
+			".NET",
+			"Visual Studio",
+			"NuGet",
+			"Microsoft SQL Server",
+			"Swagger",
 		],
 	},
 ];
